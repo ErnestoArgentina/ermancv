@@ -106,15 +106,15 @@ and open the template in the editor.
                     </div>
                      <div class="linguas">
                         <label>JAVASCRIPT</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-30"></div></div>
                     </div>
                      <div class="linguas">
                         <label>PASCAL</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-80"></div></div>
                     </div>
                      <div class="linguas">
                         <label>PHP</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-50"></div></div>
                     </div>
                      <div class="linguas">
                         <label>HTML & CSS</label>
@@ -122,11 +122,11 @@ and open the template in the editor.
                     </div>
                      <div class="linguas">
                         <label>PYTHON</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-10"></div></div>
                     </div>
                      <div class="linguas">
                         <label>ANDROID</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-50"></div></div>
                     </div>
                        <!--  <label>JAVA</label>
                         <div class="barra-bg"><div class="barra-per"></div></div>
