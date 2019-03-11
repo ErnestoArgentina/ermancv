@@ -1,0 +1,437 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 19, 2019, 7:31:52 PM
+    Author     : ernesto
+*/
+body{
+    padding: 20px;
+    margin: 0;
+    background: #023;
+}
+/*body>*{
+    overflow: hidden;
+}*/
+.menu{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 18px;
+    background: #f06;
+    background: linear-gradient(#f06,#60f);
+    z-index: 1;
+    top: -20px;
+    transition: 1s;
+    overflow: hidden;
+    padding: 0;
+    color: #fff;
+    width: 50px;
+    box-shadow: 0px 15px 24px rgba(0,0,0,.8);
+    border-radius: 20px;
+    animation: menu 2s infinite;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.menu:hover{
+    padding-top: 10px;
+    list-style: none;
+    width: 200px;
+    height: 200px;
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: #023;
+    max-width: 1000px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header{
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 250px;
+    background: #fff;
+    transition: 1s;
+}
+header .imagem{
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background: #023;
+    border-bottom-right-radius: 100px;
+    transition: 1s;
+}
+header .imagem img{
+    transition: 1s;
+    width: 90%;
+    height: 90%;
+    border-radius: 150px;
+    /*animation: cicle 10s infinite;*/
+}
+header .imagem img:hover{
+    filter: blur(0px) contrast(500%);
+}
+header .info-group{
+    float: left;
+    position: relative;
+    width: calc(100% - 250px);
+    height: 100%;
+    background: #023;
+    /*border-bottom: 20px solid #022;*/
+    transition: 1s;
+}
+header .info-group .info{
+    float: left;
+    position: relative;
+    width: 100%;
+    height: calc(100% - 5px);
+    background: #fff;
+    border-top-left-radius: 100px;
+    border-bottom: 5px dotted #023;
+    color: #023;
+    transition: 1s;
+    /*border-style: dotted;*/
+}
+main section{
+    margin-top: 0;
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: #fff;
+    border-top-left-radius: 100px;
+    color: #023;
+    margin-bottom: 20px;
+}
+
+.col-50{
+    float: left;
+    position: relative;
+    padding-left: 30px;
+    width: calc(50% - 35px);
+    height: 80%;
+    /*background: #fba;*/
+    margin-top: 30px;
+}
+.nome{
+    padding-left: 30px;
+    width: calc(50% - 35px);
+    border-right:5px dotted #023;
+    overflow: hidden;
+}
+td img{
+    width: 30px;
+    height: 30px;
+}
+.tabela-info table{
+    width: 90%;
+    position: relative;
+    float: right;
+    margin-right: 10px;
+}
+section .esquerda{
+    padding-left: 20px;
+    padding-top: 20px;
+    min-height: 100vh;
+    margin-top: 20px;
+    position: relative;
+    float: left;
+    width: calc(50% - 25px);
+    border-right: 5px dotted #023;
+    /*background: #f06;*/
+}
+section .direita{
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    padding-top: 20px;
+    min-height: 100vh;
+    margin-top: 20px;
+    width: calc(50% - 20px);
+    /*background: #60f;*/
+}
+.sep{
+    position: relative;
+    float: right;
+    background: #023;
+    width: 100px;
+    height: 5px;
+    margin-top: 12px;
+    margin-right: 5px;
+}
+.icon{
+    position: relative;
+    float: right;
+    background: #023;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    margin-right: 10px;
+}
+.icon img{
+    transform: rotate(-45deg);
+    width: 90%;
+
+}
+.divisao{
+    margin-top: 20px;
+    min-height: 220px;
+}
+.divisao table{
+    width: 100%;
+    text-align: left;
+}
+.direita .divisao .linguas{
+    width: 80%;
+    height: 40px;
+    padding: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    /*border-bottom: 20px dashed #023;*/
+}
+.direita .divisao .linguas b{
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 10.5%;
+    margin-right: 2%;
+    background: #023;
+}
+.direita .divisao .linguas i{
+    position: relative;
+    float: left;
+    height: 20px;
+    width: 10.5%;
+    margin-right: 2%;
+    background: #aaa;
+}
+.direita .divisao .linguas label{
+
+}
+.barra-bg{
+    width: 80%;
+    height: 20px;
+    background: #999;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.barra-per{
+    width: 60%;
+    height: 20px;
+    background: #023;
+}
+/*##################################################*/
+/*kkkkeeeeyyyy fffffrrraaammmeesss*/
+
+@keyframes menu{
+    0%{
+        border-left: 10px solid rgba(255,255,255,.5);
+    }
+    15%{
+        filter: blur(0px);
+    }
+    17.1%{
+        /*filter: blur(10px);*/
+    }
+    100%{
+        filter: blur(0px);
+        border-right: 10px solid rgba(255,255,255,.5);
+    }
+}
+@keyframes cicle{
+    0%{
+        border-left: 10px solid rgba(255,255,255,1);
+    }
+    15%{
+        filter: blur(0px);
+    }
+    17.1%{
+        filter: blur(10px);
+    }
+    20%{
+        filter: blur(0px);
+    }
+    25%{
+        border-left: 0px solid rgba(12,90,134,.5);
+        border-bottom: 10px solid rgba(255,255,255,1);
+        transform: rotate(45deg);
+        filter: blur(0px);
+    }
+    26.1%{
+        filter: blur(10px) contrast(100%);
+    }
+    28%{
+        filter: blur(0px) contrast(1000%);
+    }
+    40%{
+        filter: blur(0px) contrast(100%);
+    }
+    50%{
+        border-right: 10px solid rgba(255,255,255,1);
+    }
+    75%{
+        border-top: 10px solid rgba(12,90,255,1);
+        border-left: 10px solid rgba(12,90,134,.5);
+    }
+    75%{
+        filter: blur(0px);
+    }
+    77.1%{
+        filter: blur(5px);
+    }
+    80%{
+        filter: blur(0px);
+    }
+    100%{
+        border-left: 0px solid rgba(12,94,255,1);
+        transform: rotate(0deg);
+    }
+
+}
+/*#####################################################################
+##############################    media n ##########################################
+#########################################################################*/
+@media only screen and (max-width: 1000px){
+    main{
+        max-width: 90%;
+    }
+    .sep{
+        display: none;
+    }
+     .nome h1{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .nome h3{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 800px){
+    header .imagem{
+        width: 150px;
+        height: 100%;
+        background: #023;
+        transition: 1s;
+        border-bottom-right-radius: 100px;
+    }
+    header .imagem img{
+        transition: 1s;
+        width: 90%;
+        max-height: 145px;
+        border-radius: 150px;
+    }
+    main section{
+        transition: 1s;
+        border-top-left-radius: 50px;
+    }
+    section .esquerda{
+        width: calc(100% - 20px);
+        border-right: none;
+    }
+    section .direita{
+        width: calc(100% - 20px);
+    }
+    header{
+        position: relative;
+        float: left;
+        width: 100%;
+        min-height: 370px;
+        background: #fff;
+        transition: 1s;
+    }
+   header .info-group{
+    float: left;
+    position: relative;
+    width: calc(100% - 150px);
+    height: 100%;
+    background: #023;
+    transition: 1s;
+    }
+    header .info-group .info{
+        width: 100%;
+        border-top-left-radius: 100px;
+        border-bottom: 5px dotted #023;
+        color: #023;
+        /*border-style: dotted;*/
+        transition: 1s;
+    }
+    .nome{
+        padding-left: 20px;
+        width: calc(100% - 35px);
+        height: 30%;
+        border-bottom:5px dotted #023;
+        border-right: none;
+    }
+    .nome h1{
+        font-size: 25px;
+        margin-bottom: 0;
+    }
+    .nome h3{
+        margin-top: 0px;
+        font-size: 15px;
+    }
+    td img{
+        width: 30px;
+        height: 30px;
+    }
+    .tabela-info{
+        width: 100%;
+        position: relative;
+        float: right;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 502px){
+    header{
+        /*height: 400px;*/
+        height: 480px;
+    }
+    header .imagem, header .info-group{
+        width: 100%;
+        /*height: content-box;*/
+        height: 150px;
+    }
+    header .imagem img{
+        position: absolute;
+        width: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    header .info-group .info{
+        height: 100%;
+        border-bottom: none;
+    }
+    .nome{
+        padding-left: 20px;
+        width: 100%;
+        height: 80px;
+        border-bottom:5px dotted #023;
+        border-right: none;
+    }
+    main section{
+        border-top-left-radius: 0px;
+    }
+    .tabela-info{
+        margin-top: 0;
+        float: left;
+    }
+    .tabela-info table{
+        margin: 0;
+        border-bottom:5px dotted #023;
+        margin-right: 5px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
