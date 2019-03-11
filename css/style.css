@@ -229,6 +229,56 @@ section .direita{
     height: 20px;
     background: #023;
 }
+.barra-per-50{
+    width: 50%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-70{
+    width: 70%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-80{
+    width: 80%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-10{
+    width: 10%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-20{
+    width: 20%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-30{
+    width: 30%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-40{
+    width: 40%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-80{
+    width: 80%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-90{
+    width: 90%;
+    height: 20px;
+    background: #023;
+}
+.barra-per-100{
+    width: 100%;
+    height: 20px;
+    background: #023;
+}
 /*##################################################*/
 /*kkkkeeeeyyyy fffffrrraaammmeesss*/
 
