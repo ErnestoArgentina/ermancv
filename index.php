@@ -102,7 +102,7 @@ and open the template in the editor.
                     <h3><b>HABILIDADES PROFISSIONAIS</b> <div class="icon"><img src="images/icons/work.png"></div><div class="sep"></div></h3>
                      <div class="linguas">
                         <label>JAVA</label>
-                        <div class="barra-bg"><div class="barra-per"></div></div>
+                        <div class="barra-bg"><div class="barra-per-60"></div></div>
                     </div>
                      <div class="linguas">
                         <label>JAVASCRIPT</label>
